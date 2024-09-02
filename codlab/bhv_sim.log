@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+WARNING: fpga/design/ucas-cod/hardware/sim/../sources//../wrapper/simple_cpu/ideal_mem.v:41: $readmemh: Standard inconsistency, following 1364-2005.
+WARNING: fpga/design/ucas-cod/hardware/sim/../sources//../wrapper/simple_cpu/ideal_mem.v:41: $readmemh(software/workload/ucas-cod/benchmark/simple_test/basic/mips/sim/memcpy.mem): Not enough words in the file for the requested range [0:1023].
+WARNING: fpga/design/ucas-cod/hardware/sim/../sources//../wrapper/simple_cpu/ideal_mem.v:41: $readmemh: Standard inconsistency, following 1364-2005.
+WARNING: fpga/design/ucas-cod/hardware/sim/../sources//../wrapper/simple_cpu/ideal_mem.v:41: $readmemh(software/workload/ucas-cod/benchmark/simple_test/basic/mips/sim/memcpy.mem): Not enough words in the file for the requested range [0:1023].
+=======
+WARNING: fpga/design/ucas-cod/hardware/sim/../sources//../wrapper/simple_cpu/ideal_mem.v:41: $readmemh: The behaviour for reg[...] mem[N:0]; $readmemh("...", mem); changed in the 1364-2005 standard. To avoid ambiguity, use mem[0:N] or explicit range parameters $readmemh("...", mem, start, stop);. Defaulting to 1364-2005 behavior.
+WARNING: fpga/design/ucas-cod/hardware/sim/../sources//../wrapper/simple_cpu/ideal_mem.v:41: $readmemh(software/workload/ucas-cod/benchmark/simple_test/advanced/mips/sim/matrix-mul.mem): Not enough words in the file for the requested range [0:1023].
+WARNING: fpga/design/ucas-cod/hardware/sim/../sources//../wrapper/simple_cpu/ideal_mem.v:41: $readmemh: The behaviour for reg[...] mem[N:0]; $readmemh("...", mem); changed in the 1364-2005 standard. To avoid ambiguity, use mem[0:N] or explicit range parameters $readmemh("...", mem, start, stop);. Defaulting to 1364-2005 behavior.
+WARNING: fpga/design/ucas-cod/hardware/sim/../sources//../wrapper/simple_cpu/ideal_mem.v:41: $readmemh(software/workload/ucas-cod/benchmark/simple_test/advanced/mips/sim/matrix-mul.mem): Not enough words in the file for the requested range [0:1023].
+>>>>>>> codlab/master
+FST info: dumpfile fpga/sim_out/simple_cpu/dump.fst opened for output.
+=================================================
+Benchmark simulation passed!!!
+=================================================
+<<<<<<< HEAD
+=======
+fpga/design/ucas-cod/hardware/sim/simple_cpu/multi_cycle/simple_cpu_test.v:182: $finish called at 8131395000 (1ps)
+>>>>>>> codlab/master

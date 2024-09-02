@@ -1,0 +1,26 @@
+
+#ifndef __PERF_CNT__
+#define __PERF_CNT__
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+typedef struct Result {
+	int pass;
+	unsigned long msec;
+	unsigned long instrnum;
+	unsigned long instrreq;
+	unsigned long instrvalid;
+	unsigned long memsreq;
+	unsigned long memlreq;
+	unsigned long memvalid;
+	unsigned long jumpnum;
+	unsigned long branchnum;
+        unsigned long wrongbranchnum;
+} Result;
+
+void bench_prepare(Result *res);
+void bench_done(Result *res);
+
+#endif
